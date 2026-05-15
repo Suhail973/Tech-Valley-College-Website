@@ -3,6 +3,7 @@ import TestimonialCard from "./TestimonialCard.jsx";
 import student1 from "../images/student1.jpg";
 import student2 from "../images/student2.jpg";
 import student3 from "../images/student3.jpg";
+import PageTitle from "./PageTitle.jsx";
 
 const Home = () => {
   const testimonialData = [
@@ -31,6 +32,7 @@ const Home = () => {
 
   return (
     <div>
+      <PageTitle title="Home" />
       <div className="section">
         <h2>Welcome to Tech Valley College</h2>
         <img

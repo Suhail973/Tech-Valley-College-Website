@@ -1,9 +1,9 @@
-
+import PageTitle from "./PageTitle";
 
 const Admissions = () => {
     return (
     <>
-
+      <PageTitle title="Admissions" />
             <div className="section">
                 <h2>Admissions</h2>
                 <p>Join Tech Valley College and start your journey towards a successful tech career.

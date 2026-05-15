@@ -1,6 +1,10 @@
+import PageTitle from "./PageTitle";
+
 const Courses = () => {
     return (
         <div>
+            <PageTitle title="Courses" />
+
             <div className="section">
                 <h2>Our Courses</h2>
                 <p>Tech Valley College offers a diverse range of technology programs designed to

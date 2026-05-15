@@ -1,7 +1,9 @@
+import PageTitle from "./PageTitle";
+
 const Contact = () => {
     return (
         <>
-
+            <PageTitle title="Contact" />
             <div className="section">
                 <h2>Contact Us</h2>
                 <p>We’re here to help! Whether you have questions about our programs, admission

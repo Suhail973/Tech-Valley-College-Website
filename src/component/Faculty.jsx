@@ -5,6 +5,7 @@ import faculty4 from "../images/faculty4.jpg";
 import faculty5 from "../images/faculty5.jpg";
 import faculty6 from "../images/faculty6.jpg";
 import FacultyCard from "./FacultyCard";
+import PageTitle from "./PageTitle";
 
 const Faculty = () => {
   const facultyData = [
@@ -96,6 +97,7 @@ const Faculty = () => {
 
   return (
     <div>
+      <PageTitle title="Faculty" />
       <div className="section">
         <h2>Our Faculty</h2>
         <p>

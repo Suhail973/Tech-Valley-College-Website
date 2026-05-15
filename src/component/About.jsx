@@ -1,10 +1,12 @@
 import campus from '../images/campus.jpg'
 import library from '../images/library.jpg'
 import lab from '../images/lab.jpg'
+import PageTitle from './PageTitle'
 
 const About = () => {
     return (
         <>
+            <PageTitle title="About" />
             <div className="section">
 
                 <h2>About Tech Valley College</h2>
